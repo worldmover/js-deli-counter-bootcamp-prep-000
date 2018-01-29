@@ -23,9 +23,13 @@ function currentLine(katzDeliLine){
   else{
      var m=[]
      for(var i=0;i<katzDeliLine.length;i++){
+     if(i<katzDeliLine.length-1){
      m=m+`${i+1}. ${katzDeliLine[i]}, `
      }
-     m.pop[]
+     }
+     else{
+       
+     }
      console.log(m)
   }
   return `The line is currently: ${m}`
