@@ -15,3 +15,7 @@ function nowServing(katzDeliLine){
   }
   return m
 }
+
+function currentLine(katzDeliLine){
+  
+}
