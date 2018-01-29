@@ -7,6 +7,10 @@ function nowServing(katzDeliLine){
   return "The line is currently empty"
   }
   else{
-    return `The line is currently: ${
+     var m=[]
+     for(var i=0;i<katzDeliLine.length+1;i++){
+     m=m+`${i+1}. ${katzDeliLine[i]}`
+     }
   }
+  return m
 }
