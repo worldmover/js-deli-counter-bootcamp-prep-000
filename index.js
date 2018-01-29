@@ -28,7 +28,7 @@ function currentLine(katzDeliLine){
      }
      }
      else{
-       
+      m=m+`${i+1}. ${katzDeliLine[i]}` 
      }
      console.log(m)
   }
