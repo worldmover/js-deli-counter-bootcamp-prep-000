@@ -10,7 +10,7 @@ function nowServing(katzDeliLine){
   else{
      var m=[]
      for(var i=0;i<katzDeliLine.length+1;i++){
-     m=m+`${i+1}. ${katzDeliLine[i]}`
+     m=m+`${i+1}. ${katzDeliLine[i]} `
      }
   }
   return m
